@@ -5,7 +5,7 @@ import { TiHtml5 } from 'react-icons/ti'
 import { RiTailwindCssFill } from 'react-icons/ri'
 const About = () => {
   return (
-    <div className='bg-[#909090]'>
+    <div className='bg-[#808080]'>
       <Container>
         <div className='flex justify-between items-center py-28'>
           <div>

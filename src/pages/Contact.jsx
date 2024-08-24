@@ -4,7 +4,7 @@ import ContactInfo from '../layer/ContactInfo'
 
 const Contact = () => {
   return (
-    <div className="bg-[#808080]">
+    <div className="bg-[#909090]">
       <Container>
         <h1 className='font-sans text-center text-6xl font-bold text-[#6cf3fa] pt-20'>Contact Info</h1>
         <div className='font-sans pt-16 flex justify-around py-24 items-center'>

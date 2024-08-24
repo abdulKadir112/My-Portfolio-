@@ -16,8 +16,8 @@ const Home = () => {
         </div>
         {/* pop link */}
       </Container>
-      <Contact/>
       <About/>
+      <Contact/>
     </div>
   )
 }
