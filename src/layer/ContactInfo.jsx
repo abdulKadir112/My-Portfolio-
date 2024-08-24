@@ -2,6 +2,7 @@ import React, { Children } from 'react'
 import { IoCall } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
+import MapShow from '../pages/MapShow'
 
 const ContactInfo = ({className}) => {
   return (
@@ -11,7 +12,7 @@ const ContactInfo = ({className}) => {
           <div className='flex '>
             <div className='w-5 h-5 bg-red-800 rounded-full border-[5px] border-green-800'>
             </div>
-            <p className='font-bold text-sm text-white pt-1 text-start pl-2'>Bangladesh</p>
+            <p className='font-bold text-sm text-white pt-1 text-start pl-2'><Link to="/bdmap">Bangladesh</Link></p>
           </div>
         </div>
         <div className='flex items-center text-xl'>
